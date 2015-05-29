@@ -1,0 +1,1 @@
+[]execVM "scripts\group\keyManagement.sqf";
