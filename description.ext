@@ -1,2 +1,1 @@
-#include "scripts\group\common.hpp"
 #include "scripts\group\groupManagement.hpp"

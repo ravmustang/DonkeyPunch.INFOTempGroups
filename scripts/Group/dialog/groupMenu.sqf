@@ -1,4 +1,9 @@
-//Original file by the guys at [404] Wasteland. Awesome set of scripts.
+/*
+	ArmA 3 Epoch Donkey Punch
+	by =RAV=MusTanG
+	Temp Groups Menu GUI v0.1
+	Ported and Redone from Arma 2 Group Management [404] Deadbeat
+*/
 
 #define gDialog 55510
 #define gInviteButton 55511

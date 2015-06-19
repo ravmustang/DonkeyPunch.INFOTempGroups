@@ -1,5 +1,9 @@
-
-//Get the inviters UID
+/*
+	ArmA 3 Epoch Donkey Punch
+	by =RAV=MusTanG
+	Temp Groups Menu GUI v0.1
+	Ported and Redone from Arma 2 Group Management [404] Deadbeat
+*/
 {
 	if(getPlayerUID player == _x select 1) then
 	{
