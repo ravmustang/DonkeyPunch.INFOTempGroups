@@ -139,16 +139,16 @@ class GroupManagement
 		class MainBG: DTG_IGUIBack
 		{
 			idc = -1;
-			x = 0.355625 * safezoneW + safezoneX;
+			x = 0.371094 * safezoneW + safezoneX;
 			y = 0.357 * safezoneH + safezoneY;
-			w = 0.185625 * safezoneW;
-			h = 0.352 * safezoneH;
-			colorBackground[] = {0.1,0.1,0.1,0.01};
+			w = 0.154687 * safezoneW;
+			h = 0.363 * safezoneH;
+			colorBackground[] = {0.1,0.1,0.1,0.4};
 		};
 		class MainTitle: DTG_RscText
 		{
 			idc = -1;
-			text = "DonkeyPunch.INFO Temp Groups";
+			text = "EPOCH Mod Temp Groups";
 			x = 0.37625 * safezoneW + safezoneX;
 			y = 0.379 * safezoneH + safezoneY;
 			w = 0.144375 * safezoneW;
