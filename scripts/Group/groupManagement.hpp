@@ -2,9 +2,7 @@
 	ArmA 3 Epoch Donkey Punch
 	by =RAV=MusTanG
 	Temp Groups Menu GUI v0.1
-	Ported and Redone from Arma 2 Group Management [404] Deadbeat
 */
-
 #define gDialog 55510
 #define gInviteButton 55511
 #define gDisbandButton 55512
@@ -166,6 +164,8 @@ class GroupManagement
 			y = 0.621 * safezoneH + safezoneY;
 			w = 0.113437 * safezoneW;
 			h = 0.066 * safezoneH;
+			font = "PuristaMedium";
+			sizeEx = 0.04;
 		};
 		class DonkeyFrame: DTG_RscFrame
 		{
@@ -239,7 +239,7 @@ class GroupManagement
 		class DTGPicture: DTG_RscPicture
 		{
 			idc = -1;
-			text = "scripts\donkeypunch.paa";
+			text = "";
 			x = 0.0514062 * safezoneW + safezoneX;
 			y = 0.423 * safezoneH + safezoneY;
 			w = 0.195937 * safezoneW;
